@@ -23,11 +23,11 @@ To learn more about this workshop please watch the video below.
 
   - Soon after requesting your trial you will receive the following email.
 
-  ![](images/getstarted.png)
+  ![](images/getstarted.png " ")
 
-### **Step 2**: Navigate to Lab 100
+### **Step 2**: Navigate to Lab 100p
 
 - [Click here to navigate to Lab 100](Lab100.md)
 - _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper right corner of the browser window. Then, **Select Lab 100: Cloud Infrastructure Configuration**.
 
-  ![](images/Introham.png)
+  ![](images/Introham.png " ")
