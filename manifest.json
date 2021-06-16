@@ -2,31 +2,34 @@
     "workshoptitle": "Packer on OCI",
     "help": "codeinnovate_us_grp@oracle.com",
     "tutorials": [
-      {
-          "filename": "Intro.md",
-          "title": "Introduction",
-          "description": "Introduction to Building Packer images on OCI"
-      },
-
-      {
-          "filename": "Lab100.md",
-          "title": "Lab 100: Cloud Infrastructure Configuration",
-          "description": "Build resources in your Trial Account"
-      },
-      {
-          "filename": "Lab200.md",
-          "title": "Lab 200: Exploring OCI",
-          "description": "OCI overview and OCID gathering"
-      },
-      {
-          "filename": "Lab300.md",
-          "title": "Lab 300: Basic Concepts of Packer",
-          "description": "Simple file-upload, Package Installation and Labeling"
-      },
-      {
-          "filename": "Lab400.md",
-          "title": "Lab 400: Full Docker Developer Image Build",
-          "description": "Build a Image complete with Desktop, Services and Docker"
-      }
+        {
+            "filename": "Intro.md",
+            "title": "Introduction",
+            "description": "Introduction to Building Packer images on OCI"
+        },
+        {
+            "title": "Getting Started",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
+        },
+        {
+            "filename": "Lab100.md",
+            "title": "Lab 1: Cloud Infrastructure Configuration",
+            "description": "Build resources in your Trial Account"
+        },
+        {
+            "filename": "Lab200.md",
+            "title": "Lab 2: Exploring OCI",
+            "description": "OCI overview and OCID gathering"
+        },
+        {
+            "filename": "Lab300.md",
+            "title": "Lab 3: Basic Concepts of Packer",
+            "description": "Simple file-upload, Package Installation and Labeling"
+        },
+        {
+            "filename": "Lab400.md",
+            "title": "Lab 4: Full Docker Developer Image Build",
+            "description": "Build a Image complete with Desktop, Services and Docker"
+        }
     ]
 }
