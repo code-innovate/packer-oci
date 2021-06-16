@@ -18,7 +18,7 @@
       },
       "ssh_username": "opc",
       "ssh_password": "welcome1",
-      "key_file": "~/.oci/packer_api_key.pem"
+      "key_file": "/home/opc/packer_api_key.pem"
     }
   ],
   "provisioners": [
