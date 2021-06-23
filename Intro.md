@@ -25,8 +25,8 @@ To learn more about this workshop please watch the video below.
 
   ![](images/getstarted.png " ")
 
-### **Step 2**: Navigate to Lab 100
+### **Step 2**: Navigate to Lab 1
 
-- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, **Select Lab 100: Cloud Infrastructure Configuration**.
+- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, **Select Lab 1: Cloud Infrastructure Configuration**.
 
   ![](images/Introham.png " ")
