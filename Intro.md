@@ -16,6 +16,6 @@ To learn more about this workshop please watch the video below.
 
 ### **Step 1**: Navigate to Lab 1
 
-- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, **Select Lab 1: Cloud Infrastructure Configuration**.
+- _You can see a list of Lab Guides_ by clicking on the **Menu Icon** hamburger in the upper left corner of the browser window. Then, Select **Lab 1: Cloud Infrastructure Configuration**.
 
   ![](images/Introham.png " ")
