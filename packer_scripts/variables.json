@@ -6,5 +6,5 @@
       "my.region": "us-ashburn-1",
       "my.compartment_ocid": "pasteYourCompartmentOCID",
       "my.subnet_ocid": "pasteYourSubnetsOCID",
-      "my.base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaarsu56scul4muz3sqbptvykipy2rn6re3wzdjvncgcpgqt5cp3wja"
+      "my.base_image_ocid": "ocid1.image.oc1.iad.aaaaaaaamoajldhwrmbzx7s4xnrajj5b7nfrnutuebgwne4bxc7vpiap3gga"
     }
