@@ -1,11 +1,11 @@
 {
-  "_comment": "You can find all the base images for OCI here...https://docs.cloud.oracle.com/iaas/images/ ",
-  "builders": [
+ "_comment": "You can find all the base images for OCI here...https://docs.cloud.oracle.com/iaas/images/ ",
+
+"builders": [
     {
-      "type": "oracle-oci",
-      "user_ocid": "{{user `my.user_ocid`}}",
-      "tenancy_ocid": "{{user `my.tenancy_ocid`}}",
-      "fingerprint": "{{user `my.fingerprint`}}",
+      "user_ocid":"{{user `my.user_ocid`}}",
+      "tenancy_ocid":"{{user `my.tenancy_ocid`}}",
+      "fingerprint":"{{user `my.fingerprint`}}",
       "availability_domain": "{{user `my.availability_domain`}}",
       "region": "{{user `my.region`}}",
       "base_image_ocid": "{{user `my.base_image_ocid`}}",
@@ -13,32 +13,33 @@
       "subnet_ocid": "{{user `my.subnet_ocid`}}",
       "image_name": "Build400",
       "shape": "VM.Standard.E4.Flex",
-      "shape_config": {
-        "ocpus": "1"
-      },
+      "shape_config": {"ocpus": "1"},
       "ssh_username": "opc",
       "ssh_password": "welcome1",
-      "key_file": "/home/opc/packer_api_key.pem"
+      "key_file":"~/.oci/packer_api_key.pem",
+      "type": "oracle-oci"
     }
   ],
+
+
   "provisioners": [
     {
       "type": "shell",
       "inline": [
         "sleep 3",
         "sudo -u root echo 'varBuild400' > .ImageID",
-        "sudo -u root yum install -y git tigervnc tigervnc-server xclip docker-engine wget zip",
+        "sudo -u root yum install -y git tigervnc tigervnc-server docker-engine wget zip",
         "sudo -u root yum groupinstall -y 'server with gui'",
         "sudo -u root firewall-cmd --permanent --zone=public --add-port=5901/tcp",
         "sudo -u root firewall-cmd --reload"
-      ]
+                ]
     },
-    {
-      "type": "file",
-      "source": "SharedCentOS/changepasswdVNC",
-      "destination": "/tmp/changepasswdVNC.sh"
-    },
-    {
+     {
+        "type": "file",
+        "source": "OracleLinuxOS/changepasswdVNC",
+        "destination": "/tmp/changepasswdVNC.sh"
+     },
+   {
       "type": "shell",
       "inline": [
         "sudo -u root systemctl start docker",
@@ -51,7 +52,7 @@
         "sudo -u root systemctl daemon-reload",
         "sudo -u root systemctl enable vncserver@\\:01.service",
         "sudo -u root systemctl start vncserver@\\:01.service"
-      ]
+       ]
     }
   ]
 }
